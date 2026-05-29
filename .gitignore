@@ -1,0 +1,32 @@
+# --- Datasets & experiment outputs (keep out of the repo) ---
+data/
+outputs/
+output/
+work_dirs/
+checkpoints/
+logs/
+*.pth
+*.pkl
+*.bin
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# --- Editors / OS ---
+.idea/
+.vscode/
+.DS_Store
+
+# --- Environments ---
+venv/
+.venv/
+env/
+ENV/
